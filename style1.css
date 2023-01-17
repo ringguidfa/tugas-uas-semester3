@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    margin: auto;
+    margin-top: 10rem;
+    position: relative;
+    width: 20rem;
+    height: 20vh;
+    display: flex;
+    border: 2px solid #000;
+    border-radius: 40px 0px 40px 0px;
+    background: orangered;
+}
+
+.card2{
+    z-index: 0;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 10rem;
+    position: relative;
+    width: 20rem;
+    height: 38vh;
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: 100%;
+    background: orangered;
+    box-shadow: 10px 5px 5px #000;
+}
+
+.text{
+    display: grid;
+    margin-top: 5rem;
+    list-style-type: none;
+    height: 15vh;
+    text-transform: capitalize;
+}
+
+.card2 > li {
+    z-index: 1;
+    margin-left: 2rem;
+    margin-top: .3rem;
+    display: flex;
+    text-align: center;
+}
+
+.card3{
+    text-align: center;
+    margin: auto;
+    margin-top: 10rem;
+    position: relative;
+    width: 20rem;
+    height: 20vh;
+    display: flex;
+    border: 2px solid #000;
+    border-radius: 40px 0px 40px 0px;
+    background: blue;
+    /* box-shadow: 3px 3px red, -1em 0 .4em olive; */
+    box-shadow: 10px 5px 5px #000, -5px 12px .5em #000;
+
+}
+
+.text2{
+    display: grid;
+    margin-top: 2.7rem;
+    list-style-type: none;
+    height: 10vh;
+    width: 20rem;
+    text-transform: capitalize;
+}
+
+.card3 > li {
+    position: relative;
+    z-index: 1;
+    margin-left: 20rem;
+    margin-top: .1rem;
+    display: flex;
+    text-align: center;
+}
